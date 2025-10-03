@@ -7,10 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
-html {
-    scroll-behavior: smooth;
-}
+    
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -103,7 +100,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 20px 0;
-    background: crimson;
+    background: yellow !important;
 }
 
 .navbar .max-width {
@@ -114,7 +111,7 @@ section .title::after {
 
 .navbar .logo a {
     color: black;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -190,11 +187,12 @@ section .title::after {
     filter: brightness(90%);
 }
 
-
+     
+ 
 /* home section styling */
 .home {
     display: flex;
-    background: url("img/banner.png") no-repeat center;
+    background: url("./banner.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
