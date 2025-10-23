@@ -15,12 +15,11 @@ $(document).ready(function(){
         }
     });
 
-    // slide-up script
-    $('.scroll-up-btn').click(function(){
-        $('html').animate({scrollTop: 0});
-        // removing smooth scroll on slide-up button click
-        $('html').css("scrollBehavior", "auto");
-    });
+// slide-up script - Instant scroll version
+$('.scroll-up-btn').click(function(){
+    $(window).scrollTop(0);
+    return false;
+});
 
     $('.navbar .menu li a').click(function(){
         // applying again smooth scroll on menu items click
